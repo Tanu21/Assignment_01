@@ -58,7 +58,7 @@ namespace Assignment_01
         public int GetArea()
         {
             int area = length * width;
-            return area;
+            return area;   
         }
     }
 }
