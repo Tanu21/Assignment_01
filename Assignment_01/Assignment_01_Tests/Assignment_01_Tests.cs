@@ -55,7 +55,7 @@ namespace Assignment_01_Tests
         public void SetWidth_input6_Expectedoutput6()
         {
             //Arrange
-            int Actual_length = 9;
+            int Actual_length = 9; 
             int Expected_width = 6;
 
             Rectangle testrectangle = new Rectangle(Actual_length, Expected_width);
