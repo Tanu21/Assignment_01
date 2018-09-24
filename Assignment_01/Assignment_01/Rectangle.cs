@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_01
 {
-    class Rectangle
+   public class Rectangle
     {
         private int length;
         private int width;
@@ -26,7 +26,7 @@ namespace Assignment_01
 
         public int Getlength()
         {
-            return length;
+            return this.length;
         }
 
         public int Setlength(int length)
@@ -45,20 +45,20 @@ namespace Assignment_01
         public int SetWidth(int width)
         {
             this.width = width;
-            return width;
+            return this.width;
         }
 
         public int GetPerimeter()
         {
-            int perimeter = 2 * (length + width);
+            int perimeter = 2 * (this.length + this.width);
 
             return perimeter;
         }
 
         public int GetArea()
         {
-            int area = length * width;
-            return area;   
+            int area = this.length * this.width;
+            return area;
         }
     }
 }
